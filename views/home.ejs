@@ -1,38 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include("partials/header") %>
-<body>
-  <%- include("partials/nav") %>
+  <%- include("partials/header") %>
+  <body>
+    <%- include("partials/nav") %> <%- include("partials/home") %>
 
-  <%- include("partials/home") %>
+    
+   <%- include("partials/events") %> 
 
-  <% if (user) { %>
-  <%- include("partials/events") %>
-  <% } %>
-
-
-<div class="container">
-    <div class="jumbotron text-center text-primary">
-        <h1><span class="fa fa-lock"></span> Social Authentication</h1>
-        <p>Login or Register with:</p>
-        <a href="/auth/google" class="btn btn-danger"><span class="fa fa-google"></span> SignIn with Google</a>
-        <!-- <a href="/logout" class="btn btn-danger"><span class="fa fa-google"></span> Logout with Google</a> -->
-
+  
     </div>
-    <% if (user){ %>
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="well">
-                <p>
-                  <strong>Id</strong>: <%= user.id %><br />
-                  <strong>Email</strong>: <%= user.emails[0].value %><br />
-                  <strong>Name</strong>: <%= user.displayName %>
-                </p>
-              </div>
-            </div>
-          </div>
-    <% } %>
-    <h1></h1>
-</div>
-</body>
-</html> 
+    <%- include("partials/footer") %>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partials/header") %>
+<body>
+  <%- include("partials/nav") %>
+  <div class="Registered">
+    
+    <div id="events">
+    <h1 class="abc">Registered Events</h1>
+    <div>
+      <% var n = 0; %>
+      <% if (user) { %>
+        <% for (let i = 0; i < data.Register.length; i++) { %>
+          <% console.log("Start") %>
+        <% console.log("for data.Register.length:",data.Register.length) %>
+          <% if(data.Register[i].UID == user.id){ %>
+          <% console.log("if data.Register[i].UID:",data.Register[i].UID) %>
+          <% console.log("if user.id:",user.id) %>
+            <% for (let j = 0; j < data.Events.length; j++) { %>
+            <% console.log("for 2 data.Events.length:",data.Events.length) %>
+              <% if(data.Register[i].UEID == data.Events[j].UEID){ %>
+              <% console.log("if 2 data.Register[i].UEID:",data.Register[i].UEID) %>
+              <% console.log("if 2 data.Events[j].UEID:",data.Events[j].UEID) %>
+              <% n = 1; %>
+                <div
+                class="card"
+                style="background-image: url('<%= data.Events[j].poster %>')"
+              >
+                <div class="content">
+                  <h2 class="title"><%= data.Events[j].title %></h2>
+                  <div class="content-body">
+                    <p class="copy">
+                      <%= data.Events[j].date %> | <%= data.Events[j].time %>
+                    </p>
+                    <p class="copy"><%= data.Events[j].location %></p>
+                    <p class="copy"><%= data.Events[j].pricing %></p>
+                  </div>
+                  <button class="btn">
+                    <a href="/event/<%= data.Events[j].UEID %>">Learn More</a>
+                  </button>
+                </div>
+              </div>
+              <% console.log("End") %>
+            <% } %>
+          <% } %>
+        <% } %>
+        <% } %>
+      <% } %>
+    </div>
+  </div>
+  </div>
+  <% if (n == 0) { %>
+    <div id="home" class="registered-page">
+      <div>
+        <h2 class="title">No Event Registered YET</h2>
+        <p class="copy">
+          <br>
+          <strong>REGISTER NOW !!!</strong>
+        </p>
+        <div class="btn"  id="btn-home"><a href="/#events">Go To Events</a></div>
+
+        <!-- <div class="button">
+          <a href="/auth/google">Login</a>
+        </div> -->
+      </div>
+      <div>
+        <img src="/Images/void.svg" alt="" />
+      </div>
+    </div>
+    <div class="void"></div>
+  <% } %>
+
+
+</body>
+<%- include("partials/footer") %>
+
+</html>

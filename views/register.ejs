@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/nice-forms.css@0.1.7/dist/nice-forms-reset.css"
+    />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <style>
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+
+    <title>List Your Event</title>
+  </head>
+  <body>
+    <%- include("partials/nav") %>
+    <div class="costumDiv">
+      <div>
+        <form action="/register" method="post">
+          <label>Name</h1>
+          <input type="text" name="title" id="title" required />
+          <br />
+          <br />
+          <label>Date Of Birth</label>
+          <input type="date" name="date" id="date"  />
+          <br>
+          <br>
+          <label>Email</label>
+          <input type="email" placeholder="Your email"  value="" required />
+          <br>
+          <br>
+          <label>Phonenumber</label>
+          <input type="tel" placeholder="Your phonenumber" pattern="[0-9]*" value="" required/>
+          <br>
+
+          <br>
+          <label>Address</label>
+          <input type="text" name="location" id="location" />
+          <br>
+          <br>
+          <label>UEID</label>
+          <textarea class="disabled-css"  type="number" id="UEID" name="UEID" rows="2" cols="40"  placeholder=""><%= event.UEID %></textarea>
+          <br>
+          <label>UID</label>
+          <textarea class="disabled-css" type="number" id="UID" name="UID" rows="2" cols="40" placeholder=""><%= user.id %></textarea>
+          <br>
+          <br>
+          <div class="button">
+            <button type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+

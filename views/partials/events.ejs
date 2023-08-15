@@ -1,19 +1,25 @@
 <div id="events">
-  <% for (let i = 0; i < data.Events.length; i++) { %>
-  <div
-    class="card"
-    style="background-image: url('<%= data.Events[i].poster %>')"
-  >
-    <div class="content">
-      <h2 class="title"><%= data.Events[i].title %></h2>
-      <div class="content-body">
-        <p class="copy"><%= data.Events[i].date %></p>
-        <p class="copy"><%= data.Events[i].Time %></p>
+  <h1 class="abc">Events</h1>
+
+  <div>
+    <% for (let i = 0; i < data.Events.length; i++) { %>
+      <div
+        class="card"
+        style="background-image: url('<%= data.Events[i].poster %>')"
+      >
+        <div class="content">
+          <h2 class="title"><%= data.Events[i].title %></h2>
+          <div class="content-body">
+            <p class="copy">
+              <%= data.Events[i].date %> | <%= data.Events[i].time %>
+            </p>
+            <p class="copy"><%= data.Events[i].location %></p>
+          </div>
+          <button class="btn">
+            <a href="/event/<%= data.Events[i].UEID %>">Learn More</a>
+          </button>
+        </div>
       </div>
-      <button class="btn">
-        <a href="/event/<%= data.Events[i].UEID %>">Learn More</a>
-      </button>
-    </div>
+        <% } %>
   </div>
-  <% } %>
 </div>

@@ -4,57 +4,76 @@
   ],
   "UID": [],
   "Events": [
-
     {
-      "title": "ANIGMA POP CULTURE FESTIVAL",
-      "date": "22 Jul 2023",
-      "Time": "11:00 AM",
-      "location": [
-        "Xora Bar & Kitchen: Hyderabad",
-        "Xora Bar & Kitchen: Hyderabad"
-      ],
-      "type": "Public",
-      "duration": "3 Hrs",
-      "pricing": "799 ",
-      "Description": "•\tANIGMA brings together diverse fandoms, fostering connections and celebration of shared passions. •\tANIGMA provides a platform for emerging artists to showcase their talents, supporting their growth •\tANIGMA offers non-stop entertainment with cosplay competitions, workshops, merchandise stalls etc",
-      "Terms": "Sure! Here's a sample set of Terms and Conditions for an event:  Registration and Tickets:  All attendees must register for the event in advance. Tickets are non-transferable and must not be resold or exchanged. The event organizers reserve the right to refuse admission or remove attendees without refund for any reason, including but not limited to violation of the event's code of conduct. Code of Conduct:  All attendees must abide by the event's code of conduct, which promotes a respectful and inclusive environment. Harassment, discrimination, or any form of offensive behavior will not be tolerated, and offenders may be immediately expelled from the event without refund. Liability and Waiver:  Attendees participate in the event at their own risk. The event organizers, sponsors, and venue will not be held liable for any loss, injury, or damage to personal property during the event. Attendees are responsible for their personal belongings at all times. Photography and Recording:  The event may be documented thr",
-      "poster": "https://marketplace.canva.com/EAFGpEqJpI8/1/0/1131w/canva-black-purple-neon-night-club-party-poster-2SkaHIX3FrY.jpg",
-      "picture": "https://img.freepik.com/free-vector/music-event-poster-template-with-abstract-shapes_1361-1316.jpg",
-      "UEID": "1111111113"
+      "title": "Jonita Gandhi Live Concert",
+      "date": "2023-07-22",
+      "time": "17:30",
+      "duration": "3",
+      "location": "HITEX Exhibition Center: Hyderabad",
+      "radio": "public",
+      "category": "music",
+      "pricing": "999",
+      "description": "Jonita Gandhi, the acclaimed Indian-Canadian playback singer, exudes an extraordinary blend of versatility and musical finesse that distinguishes her in the realm of music. With a rich foundation in Hindustani classical music, Jonita`s artistic journey flourished through her captivating YouTube cover songs, resonating with a diverse global audience. Collaborating with eminent music directors such as A.R. Rahman and Pritam, she has graced the Bollywood landscape with awe-inspiring performances in chart-topping hits like \"Arabic Kuthu\" from \"Beast\" and \"The Breakup Song\" from \"Ae Dil Hai Mushkil\". Jonita`s seamless transition across genres, coupled with her profound ability to evoke profound emotions through her ethereal vocals, has solidified her position as a revered and celebrated figure in the music industry.\r\n\r\n\r\n\r\nCatch Jonita Gandhi performing live on 22nd July 2023 at Hitex Exhibition Grounds, Hyderabad.",
+      "poster": "https://cdn.discordapp.com/attachments/1078183829321297942/1130995636007866389/image.png",
+      "picture": "https://cdn.discordapp.com/attachments/1078183829321297942/1130995636007866389/image.png",
+      "UEID": "220090109"
     },
     {
-      "title": "ANIGMA POP CULTURE FESTIVAL",
-      "date": "22 Jul 2023",
-      "Time": "11:00 AM",
-      "location": [
-        "Xora Bar & Kitchen: Hyderabad",
-        "Xora Bar & Kitchen: Hyderabad"
-      ],
-      "type": "Public",
-      "duration": "3 Hrs",
-      "pricing": "799 ",
-      "Description": "•\tANIGMA brings together diverse fandoms, fostering connections and celebration of shared passions. •\tANIGMA provides a platform for emerging artists to showcase their talents, supporting their growth •\tANIGMA offers non-stop entertainment with cosplay competitions, workshops, merchandise stalls etc",
-      "Terms": "Sure! Here's a sample set of Terms and Conditions for an event:  Registration and Tickets:  All attendees must register for the event in advance. Tickets are non-transferable and must not be resold or exchanged. The event organizers reserve the right to refuse admission or remove attendees without refund for any reason, including but not limited to violation of the event's code of conduct. Code of Conduct:  All attendees must abide by the event's code of conduct, which promotes a respectful and inclusive environment. Harassment, discrimination, or any form of offensive behavior will not be tolerated, and offenders may be immediately expelled from the event without refund. Liability and Waiver:  Attendees participate in the event at their own risk. The event organizers, sponsors, and venue will not be held liable for any loss, injury, or damage to personal property during the event. Attendees are responsible for their personal belongings at all times. Photography and Recording:  The event may be documented thr",
-      "poster": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dj-flyer-template-design-be97f51fd114dea20cf6e1ccab137c48_screen.jpg?ts=1637007043",
-      "picture": "https://imgv3.fotor.com/images/blog-cover-image/poster-designs.jpg",
-      "UEID": "1111111112"
+      "title": "Samay Raina Unfiltered ",
+      "date": "2023-07-19",
+      "time": "13:30",
+      "duration": "3",
+      "location": "Multiple Venues",
+      "radio": "public",
+      "category": "comedy",
+      "pricing": "499",
+      "description": "Samay Raina as always, brings an unfiltered version of himself on this tour. Bringing lots of new jokes in this tour and jokes from the last tour with a new flavour.\r\nDefinitely come with your entire family if you don`t have any fear of disownment.\r\n",
+      "poster": "https://cdn.discordapp.com/attachments/1078183829321297942/1130999136091656292/Screenshot_2023-07-19_043600.png",
+      "picture": "https://cdn.discordapp.com/attachments/1078183829321297942/1130999136091656292/Screenshot_2023-07-19_043600.png",
+      "UEID": "900268858"
     },
     {
-      "title": "String art workshop at Xora",
-      "date": "22 Jul 2023",
-      "Time": "1:00 PM",
-      "location": [
-        "Xora Bar & Kitchen: Hyderabad",
-        "Xora Bar & Kitchen: Hyderabad"
-      ],
-      "type": "Private",
-      "duration": "3 Hrs",
-      "pricing": "1799 ",
-      "Description": "•\tANIGMA brings together diverse fandoms, fostering connections and celebration of shared passions. •\tANIGMA provides a platform for emerging artists to showcase their talents, supporting their growth •\tANIGMA offers non-stop entertainment with cosplay competitions, workshops, merchandise stalls etc",
-      "Terms": "Sure! Here's a sample set of Terms and Conditions for an event:  Registration and Tickets:  All attendees must register for the event in advance. Tickets are non-transferable and must not be resold or exchanged. The event organizers reserve the right to refuse admission or remove attendees without refund for any reason, including but not limited to violation of the event's code of conduct. Code of Conduct:  All attendees must abide by the event's code of conduct, which promotes a respectful and inclusive environment. Harassment, discrimination, or any form of offensive behavior will not be tolerated, and offenders may be immediately expelled from the event without refund. Liability and Waiver:  Attendees participate in the event at their own risk. The event organizers, sponsors, and venue will not be held liable for any loss, injury, or damage to personal property during the event. Attendees are responsible for their personal belongings at all times. Photography and Recording:  The event may be documented thr",
-      "poster": "https://marketplace.canva.com/EAFGpEqJpI8/1/0/1131w/canva-black-purple-neon-night-club-party-poster-2SkaHIX3FrY.jpg",
-      "picture": "https://img.freepik.com/free-vector/music-event-poster-template-with-abstract-shapes_1361-1316.jpg",
-      "UEID": "1111111111"
+      "title": "Gaurav Gupta Live Event",
+      "date": "2023-07-30",
+      "time": "19:35",
+      "duration": "2",
+      "location": "JLN Stadium, Delhi",
+      "radio": "public",
+      "category": "comedy",
+      "pricing": "599",
+      "description": "Gaurav Gupta is a baniya who is extravagant when it comes to delivering jokes, he is a dentist by profession and a comic by recession, his comedy involves keen observations of daily life, people and funny encounters with them, he has won several open mic competitions like 94.3 FM Radio One LOL contest, Piano Man Tongue in Cheek in Delhi and Chalta Hai Comedy in Mumbai and has performed at Canvas Laugh Club, Mumbai and Delhi. He has also performed at theatre shows in Delhi like Akshara, Alliance Francaise, Lok Kala Manch and so on. He has been performing for prestigious Best in Stand-up Comedy Show at Canvas Laugh Club, Gurgaon cyber hub. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHe is a recent WhatsApp viral sensation across India and abroad for his video Being Baniya which received millions of hits on Facebook and Youtube. Gaurav has done corporate shows for many reputed corporate clients like Fitbit, Kotak Mahindra Bank, MRF tires, SBI, Valvoline oil, Mother diary, UHG healthcare and so many. Also, he was among the top 12 finalists of a TV show Great Indian Laughter Challenge on Star Plus judged by Bollywood actor Akshay Kumar so get ready to have your full 32 out with his deadly combination of comedy and dentist skills.",
+      "poster": "https://cdn.discordapp.com/attachments/1078183829321297942/1130995337323094066/image.png",
+      "picture": "https://cdn.discordapp.com/attachments/1078183829321297942/1130995337323094066/image.png",
+      "UEID": "994040372"
+    },
+    {
+      "title": "Mastering Basics Of Photography",
+      "date": "2023-07-23",
+      "time": "17:00",
+      "duration": "3",
+      "location": "ONLINE",
+      "radio": "public",
+      "category": "workshop",
+      "pricing": "349",
+      "description": "Whether you are a Beginner, Intermediate level or want to turn yourself into a Professional and we have the strategy of teaching the Photography Basics. \r\n\r\n\r\n\r\nThis part of the 𝗖𝗼𝘂𝗿𝘀𝗲 will give you the 𝗣𝗲𝗿𝗳𝗲𝗰𝘁 𝗜𝗱𝗲𝗮 on all kinds of photography genres like 𝗪𝗶𝗹𝗱𝗹𝗶𝗳𝗲, 𝗣𝗼𝗿𝘁𝗿𝗮𝗶𝘁𝘂𝗿𝗲, 𝗠𝗮𝗰𝗿𝗼, 𝗟𝗮𝗻𝗱𝘀𝗰𝗮𝗽𝗲, 𝗦𝗽𝗼𝗿𝘁𝘀 or 𝗔𝗰𝘁𝗶𝗼𝗻 Photography, 𝗟𝗼𝘄 𝗹𝗶𝗴𝗵𝘁 & 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘂𝗮𝗹 Photography.\r\n\r\n\r\n\r\n𝗣𝗵𝗼𝘁𝗼𝗳𝗼𝘂𝗻𝘁𝗮𝗶𝗻 is more Focused and Challenged to provide quick learning strategic training and Hyderabad city’s most active photography community.\r\n\r\n\r\n\r\nWe give you 𝗔𝘀𝘀𝘂𝗿𝗮𝗻𝗰𝗲 that after this course, you will be able to make the best possible decision making on choosing the right camera settings to photograph the picture of any type of photography genre with respective to different lighting conditions and also considering the best quality of the image.\r\n\r\n\r\n\r\nOur 𝗴𝗼𝗮𝗹 is to provide you with the best training and also in the less duration of time so that you are able to capture the photograph in the smarter way from day 1.\r\n\r\n\r\n\r\n𝗪𝗵𝘆 𝘁𝗼 𝗰𝗵𝗼𝗼𝘀𝗲 𝗣𝗵𝗼𝘁𝗼𝗳𝗼𝘂𝗻𝘁𝗮𝗶𝗻?\r\n\r\nLess batch size & Less duration of course. \r\nOne Time Subscription, attend workshops every weekend.(We'll provide you unique references ID. \r\nHelp & Assistance, every day. \r\n\r\n\r\nWe assure & you can expect 100% best level of training whether its online or offline courses.\r\n\r\n\r\n\r\n𝗜𝗻𝗱𝗲𝗽𝘁𝗵 & 𝗔𝗱𝘃𝗮𝗻𝗰𝗲 𝗧𝗼𝗽𝗶𝗰s:\r\n\r\n𝗪𝗶𝗹𝗱𝗹𝗶𝗳𝗲 𝗣𝗵𝗼𝘁𝗼𝗴𝗿𝗮𝗽𝗵𝘆 - What is required In terms of Gear, Skills & Dedication to capture good Details, Quality & Image Composition.\r\n\r\n\r\n\r\n𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘂𝗮𝗹 𝗣𝗵𝗼𝘁𝗼𝗴𝗿𝗮𝗽𝗵𝘆 - Understand the logic behind to capture Light & Star Trails, Motion Blur or Panning & other etc.\r\n\r\n\r\n\r\n𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗔𝗜 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝘆 𝗶𝗺𝗽𝗿𝗼𝘃𝗲𝗺𝗲𝗻𝘁𝘀 - With respective to different cameras brands like 𝗦𝗼𝗻𝘆, 𝗡𝗶𝗸𝗼𝗻 & 𝗖𝗮𝗻𝗼𝗻 in terms of providing the features on 𝗙𝗼𝗰𝘂𝘀𝗶𝗻𝗴 the subject tracking & 𝗘𝘅𝗽𝗼𝘀𝘂𝗿𝗲 Metering algorithms.\r\n\r\n\r\n\r\n𝗛𝗗𝗥, 𝗕𝗿𝗮𝗰𝗸𝗲𝘁𝗶𝗻𝗴 & 𝗩𝗶𝗱𝗲𝗼𝗴𝗿𝗮𝗽𝗵𝘆 𝗦𝗸𝗶𝗹𝗹𝘀: Understand the features & why came into the picture in Photography & Video making skills with professional approach. \r\n\r\n\r\n\r\n𝗤𝘂𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝘀𝗼𝗹𝘃𝗶𝗻𝗴 :\r\n\r\nEvery Monday, Wednesday, Saturday from 9 AM to 10:30 AM or resolve any time based on the availability of the trainer. \r\n\r\nAll scenarios are explained & demonstrate live with the camera in offline. In online demonstrated with prerecorded videos & Sample images.\r\n\r\n\r\n\r\n𝗚𝗲𝘁 𝗧𝗿𝗮𝗶𝗻𝗲𝗱 𝗧𝗼 𝗖𝗮𝗽𝘁𝘂𝗿𝗲 𝗔𝗻𝘆𝘁𝗵𝗶𝗻𝗴  - Capture Smarter way.",
+      "poster": "https://cdn.discordapp.com/attachments/1078183829321297942/1133617200046018690/et00317292-hezyqtzzvx-portrait.png",
+      "UEID": "405931336"
+    },
+    {
+      "title": "Movie Night ",
+      "date": "2023-07-23",
+      "time": "18:30",
+      "duration": "3",
+      "location": "Dhwani Indiranagar, Bengaluru",
+      "radio": "private",
+      "category": "others",
+      "pricing": "249",
+      "description": "Perfect movie night is waiting for you with complimentary beverage at Dhwani Indiranagar!\r\n\r\n\r\n\r\nEnjoy the cafe`s cozy space with Banjara and Gypsy. It’s the perfect date night for you and your partner or with your family.\r\n\r\n\r\n\r\nMovie: It will be announced on Instagram (banjara_gypsy) - Movie - Deadpool\r\n\r\n\r\n\r\nInclusions:\r\n\r\n1) 1 complimentary beverage\r\n\r\n2) Movie night ticket\r\n\r\n3) Seating ambience with candlelight\r\n\r\n4) Headphones provided for the ultimate movie experience (only given for the movie duration)\r\n\r\n5) Movie night permissions\r\n\r\n\r\n\r\nA lot of memories \r\n\r\n\r\n\r\nExclusions:\r\n\r\n\r\n\r\nFood/beverages other than complimentary beverage",
+      "poster": "https://cdn.discordapp.com/attachments/1078183829321297942/1133609430336950322/image-1425.jpeg",
+      "UEID": "357511488"
     }
+  ],
+  "Register": [
+
   ]
 }

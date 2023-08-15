@@ -1,9 +1,39 @@
+
+
 <div id="home">
   <div>
     <h1>Unify . Celebrate . Experience</h1>
-    <p>Ignite your passion for unforgettable experiences. Explore a vibrant world of events, connect with like-minded individuals, and create lasting memories. Your journey starts here.</p>
+    <p>
+      Ignite your passion for unforgettable experiences. Explore a vibrant world
+      of events, connect with like-minded individuals, and create lasting
+      memories. Your journey starts here.
+    </p>
+    <div class="btn" id="btn-home"><a href="/#events">Explore</a></div>
   </div>
-  <div>
-    <img src="/Images/baloon.svg" alt="">
+  <div class="container">
+    <div class="slider">
+      <img src="/Images/baloon.svg" loading="lazy" alt="Image 1">
+      <img src="/Images/fun.svg" loading="lazy" alt="Image 2">
+      <img src="/Images/enjoy.svg" loading="lazy" alt="Image 3">
+    </div>
   </div>
 </div>
+
+<script>
+  const sliderContainer = document.querySelector('.slider');
+  const svgImages = sliderContainer.querySelectorAll('img');
+  let currentImageIndex = 0;
+
+  showNextImage(showNextImage);
+  function showNextImage() {
+    // svgImages[currentImageIndex].classList.style.opacity = "0.5";
+    // svgImages[currentImageIndex].classList.style.transitionDuration = "1s";
+    svgImages[currentImageIndex].classList.remove('show');
+    currentImageIndex = (currentImageIndex + 1) % svgImages.length;
+
+    svgImages[currentImageIndex].classList.add('show');
+  }
+  // Change image every 3 seconds (adjust the timing as needed)
+  setInterval(showNextImage, 3000);
+</script>
+

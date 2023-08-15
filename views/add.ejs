@@ -4,49 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MCU</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+
+    
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      href="https://unpkg.com/nice-forms.css@0.1.7/dist/nice-forms-reset.css"
     />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <style>
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+
+    <title>List Your Event</title>
   </head>
-  <body style="margin: 20px">
-    <form action="/add" method="post">
-      <h1>Title</h1>
-      <input type="text" name="title" id="title" /><br /><br />
-      <h1>Date</h1>
-      <input type="date" name="date" id="date"  />
-      <h1>Time</h1>
-      <input type="time" id="time" name="time" />
-      <h1>Duration (in hrs)</h1>
-      <input type="number" id="duration" name="duration" />
-      <h1>Location</h1>
-      <input type="text" name="location" id="location" />
-      <h1>Type</h1>
-      <input type="radio" id="public" name="type" value="public" />
-      <label for="html">Public</label><br />
-      <input type="radio" id="private" name="type" value="private" />
-      <label for="css">Private</label><br />
-      <h1>Category</h1>
-      <select name="category" id="category">
-        <option value="music">Music</option>
-        <option value="sports">Sports</option>
-        <option value="workshop">Workshop</option>
-        <option value="comedy">Comedy</option>
-        <option value="others">Others</option>
-      </select>
-      <h1>Pricing</h1>
-      <input type="number" name="pricing" id="pricing" />
-      <h1>Description</h1>
-      <textarea name="description" id="description" cols="30" rows="4"></textarea>
-      <h1>Poster (Poterate) (url)</h1>
-      <input type="text" name="poster" id="poster"  />
-      <h1>Picture (Landscape) (url)</h1>
-      <input type="text" name="picture" id="picture"  />
-      <h1>UEID</h1>
-      <textarea type="number" id="UEID" name="UEID" rows="2" cols="40"><%= Math.floor(100000000 + Math.random() * 900000000) %></textarea>
-      <button type="submit">submit</button>
-    </form>
+  <body>
+    <%- include("partials/nav") %>
+    <div class="costumDiv">
+      <div>
+        <form action="/add" method="post">
+          <h1>Event Details</h1>
+          <br>
+          <div class="nice-form-group">
+            <div>
+              <label>Title</label>
+              <input type="text" name="title" id="title" placeholder="Event Name" />
+            </div>
+            <br />
+    
+            <div>
+              <label>Date</label>
+              <input type="date" name="date" id="date" value="2023-07-19" />
+            </div>
+            <br />
+            <div>
+              <label>Time</label>
+              <input type="time" id="time" name="time" value="13:30" />
+            </div>
+            <br />
+            <div>
+              <label>Duration (in hrs)</label>
+              <input type="number" id="duration" name="duration" />
+            </div>
+            <br />
+            <div>
+              <label>Location</label>
+              <input type="text" name="location" id="location" />
+            </div>
+            <br />
+            <div>
+              <label>Type</label>
+              <br />
+              <input type="radio" id="r-1" name="radio" value="public" />
+              <label for="r-1">Public</label><br />
+              <input type="radio" id="r-2" name="radio" value="private" />
+              <label for="r-2">Private</label>
+            </div>
+            <br />
+            <div>
+              <label>Category</label>
+              <select name="category" id="category">
+                <option value="music">Music</option>
+                <option value="sports">Sports</option>
+                <option value="workshop">Workshop</option>
+                <option value="comedy">Comedy</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            <br />
+            <div>
+              <label>Pricing</label>
+              <input type="number" name="pricing" id="pricing" placeholder="Price of the event" />
+            </div>
+            <br />
+            <div>
+              <label>Description</label>
+              <textarea name="description" id="description" cols="30" rows="5"></textarea>
+            </div>
+            <br />
+            <div>
+              <label>Poster (Potrait) (url)</label>
+              <input type="text" name="poster" id="poster" />
+            </div>
+
+            <br />
+            <div>
+              <label>UEID</label>
+              <textarea style="cursor: no-drop;" type="number" id="UEID" name="UEID" rows="2" disable placeholder="" readonly ><%= Math.floor(100000000 + Math.random() * 900000000) %></textarea>
+            </div>
+            <br>
+          </div>
+          
+           <div class="button">
+            <button type="submit">Submit</button>
+           </div>
+         
+        </form>
+      </div>
+    </div>
   </body>
 </html>

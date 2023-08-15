@@ -1,33 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
   <%- include("partials/header") %>
-  <body>
-    <%- include("partials/nav") %> 
-    <% if (user) { %>
-    <div id="home">
-      <div>
-        <h2 class="title"><%= event.title %></h2>
-        <p class="copy"><%= event.date %></p>
-        <p class="copy"><%= event.Time %></p>
+  <body
+    style="background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)"
+  >
+    <%- include("partials/nav") %> <% if (user) { %>
+      <div id="home">
+        <div>
+          <h2 class="title"><%= event.title %></h2>
+          <p class="copy"><%= event.date %> | <%= event.time %></p>
+          <p class="copy"><%= event.location %></p>
+          <p class="copy">₹ <%= event.pricing %></p>
+          <% var a= 0; for (let i = 0; i < data.Register.length; i++) { %>
+            <%  if(data.Register[i].UID == user.id && data.Register[i].UEID == event.UEID){ %>
+          <p ><strong>Registered  <span style="color:#34b233;">&check;</span></strong></p>
+              <% a=1; break; %>
+              <% } %>
+  
+  
+            <% } %>
+          <%  if(a==0){ %>
+  
+            <div class="button"> <a href="/register/<%= event.UEID %>">Register</a></div>             <% } %>
+  
+        </div>
+        <div>
+          <img src="<%= event.poster %>" alt="" />
+        </div>
       </div>
-      <div>
-        <img src="<%= event.poster %>" alt="">
+  
+      <div class="description">
+        <h2>Description</h2>
+        <p class="copy"><%= event.description %></p>
       </div>
-    </div>
-    <% } else { %>
-    <div id="home">
-      <div>
-        <h2 class="title">Error</h2>
-        <p class="copy">Something went Wrong</p>
+      <div class="terms">
+        <h2>Terms and Conditions</h2>
+        <p><strong>1. Registration and Attendance:</strong></p>
+        <p>
+          a. Participants must register for the event using the provided
+          registration process.
+        </p>
+        <p>
+          b. Attendance at the event is subject to availability and may require
+          confirmation or approval.
+        </p>
+        <p>
+          c. The event organizer reserves the right to refuse or cancel
+          registrations or attendance at their discretion.
+        </p>
+  
+        <p><strong>2. Event Content and Changes:</strong></p>
+        <p>
+          a. The event program, schedule, speakers, and content are subject to
+          change without prior notice.
+        </p>
+        <p>
+          b. The event organizer will make reasonable efforts to provide accurate
+          and up-to-date information regarding the event.
+        </p>
+  
+        <p><strong>3. Payment and Refunds:</strong></p>
+        <p>
+          a. Payment for event registration must be made in full at the time of
+          registration.
+        </p>
+        <p>
+          b. Refunds for event registration fees may be available based on the
+          organizer's refund policy, which will be communicated to participants.
+        </p>
+  
+        <p><strong>4. Cancellation and Postponement:</strong></p>
+        <p>
+          a. The event organizer reserves the right to cancel or postpone the
+          event due to unforeseen circumstances, including but not limited to
+          natural disasters, public health emergencies, or other factors beyond
+          their control.
+        </p>
+        <p>
+          b. In the event of cancellation or postponement, the organizer will make
+          reasonable efforts to provide information on rescheduling, refunds, or
+          alternative arrangements.
+        </p>
+  
+        <p><strong>5. Code of Conduct:</strong></p>
+        <p>
+          a. Participants are expected to conduct themselves in a respectful and
+          professional manner during the event.
+        </p>
+        <p>
+          b. Harassment, discrimination, or any form of disruptive behavior will
+          not be tolerated and may result in removal from the event without
+          refund.
+        </p>
+  
+        <p><strong>6. Liability and Disclaimer:</strong></p>
+        <p>
+          a. The event organizer and its affiliates shall not be held liable for
+          any loss, damage, injury, or inconvenience incurred during the event.
+        </p>
+        <p>
+          b. Participants are responsible for their personal belongings, safety,
+          and well-being during the event.
+        </p>
+  
+        <p><strong>7. Intellectual Property:</strong></p>
+        <p>
+          a. All intellectual property rights, including but not limited to event
+          materials, presentations, and recordings, are owned by the event
+          organizer or the respective rights holders.
+        </p>
+        <p>
+          b. Participants shall not reproduce, distribute, modify, or use any
+          event materials without prior written consent from the event organizer.
+        </p>
+  
+        <p><strong>8. Privacy and Data Protection:</strong></p>
+        <p>
+          a. The event organizer may collect and process personal information
+          provided by participants for event registration and related purposes.
+        </p>
+        <p>
+          b. Participant data will be handled in accordance with applicable
+          privacy laws and the event organizer's privacy policy.
+        </p>
+  
+        <p><strong>9. Photography and Media:</strong></p>
+        <p>
+          a. By attending the event, participants grant the event organizer the
+          right to capture and use photographs, videos, or other media taken
+          during the event for promotional purposes.
+        </p>
+  
+        <p><strong>10. Indemnity:</strong></p>
+        <p>
+          a. Participants agree to indemnify and hold harmless the event
+          organizer, its affiliates, and partners from any claims, damages, or
+          liabilities arising from their participation in the event.
+        </p>
+  
+        <p><strong>11. Governing Law and Jurisdiction:</strong></p>
+        <p>
+          a. These terms and conditions shall be governed by and construed in
+          accordance with the laws of India.
+        </p>
+        <p>
+          b. Any disputes arising from these terms and conditions shall be subject
+          to the exclusive jurisdiction of the courts in India.
+        </p>
+  
+        <p><strong>12. Severability:</strong></p>
+        <p>
+          a. If any provision of these terms and conditions is deemed invalid or
+          unenforceable, the remaining provisions shall remain in full force and
+          effect.
+        </p>
       </div>
-      <div>
-        <img src="/Images/404.svg" alt="">
+      <% } else { %>
+      <div id="home">
+        <div>
+          <h2 class="title">Access Denied</h2>
+          <p class="copy">
+            You Need To Login First to Access the Event Registration Page
+          </p>
+          <div class="button">
+            <a href="/auth/google">Login</a>
+          </div>
+        </div>
+        <div>
+          <img src="/Images/error.svg" alt="" />
+        </div>
       </div>
-    </div>
-    <% } %>
-
-    <div id="shape1"></div>
-    <div id="shape2"></div>
-    <div id="shape3"></div>
+      <% } %>  
+      <%- include("partials/footer") %>
   </body>
 </html>
