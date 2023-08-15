@@ -1,6 +1,8 @@
 # UniEvents
 UniEvent is a collaborative event management system developed by Aman Shaikh and Harsh RB as a college project using Node.js. The project aims to provide a platform where users can join various events organized by others, as well as create their private and public events to share with others.
 
+<img src="https://raw.githubusercontent.com/ShaikhAman01/Project-UniEvent-Node/main/public/Images/HomePage.png" alt="s1" width="800">
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -23,6 +25,8 @@ Welcome to UniEvents, your ultimate destination for discovering, registering, an
 - Intuitive UI/UX for smooth navigation
 - JSON-based database management
 - Collaborative version control with Git and GitHub
+
+<img src="https://raw.githubusercontent.com/ShaikhAman01/Project-UniEvent-Node/main/public/Images/Registered.png" alt="s1" width="800">
   
 ## Technologies Used
 
